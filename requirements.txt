@@ -1,5 +1,3 @@
-gradio
 requests
 openai
-config
 streamlit
