@@ -3,7 +3,6 @@ import streamlit
 import os 
 import json 
 import requests
-import config as config
 
 api_key = config.OPENAI_API_KEY
 
