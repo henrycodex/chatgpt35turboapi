@@ -4,13 +4,13 @@ import json
 import requests
 import config as config
 
-api_key = config.OPENAI_API_KEY
+#api_key = config.OPENAI_API_KEY
 
 #Streaming endpoint
 API_URL = "https://api.openai.com/v1/chat/completions" 
 
 #Testing with my Open AI Key 
-#openai_api_key = os.getenv("open_api_key") 
+api_key = os.getenv("OPENAI_API_KEY") 
 
 def predict(inputs, top_p, temperature, chat_counter, chatbot=[], history=[]):  #repetition_penalty, top_k
 
